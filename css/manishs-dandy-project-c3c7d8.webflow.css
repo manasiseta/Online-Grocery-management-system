@@ -1,0 +1,256 @@
+.section_bg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/bg-sign-up.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.sign-up-wrap {
+  position: relative;
+  bottom: 9px;
+  width: 432px;
+  min-height: 0px;
+  padding: 0px 35px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  background-color: rgba(240, 240, 240, 0.65);
+  box-shadow: 5px 3px 20px 2px #000;
+}
+
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #3bb78f;
+  font-family: Karla, sans-serif;
+  text-align: center;
+}
+
+.text_field {
+  margin-top: -3px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: #000 #000 hsla(0, 0%, 100%, 0.2);
+  border-radius: 12px;
+  background-color: #1f1e1e;
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 22px;
+  text-align: center;
+}
+
+.form {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 0 -20px #000;
+}
+
+.submit-button {
+  position: relative;
+  left: 1px;
+  top: 10px;
+  right: 879px;
+  bottom: -119px;
+  min-width: 234px;
+  margin-top: 8px;
+  margin-bottom: 18px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 100px;
+  background-color: #fff;
+  -webkit-transition: all 325ms cubic-bezier(.215, .61, .355, 1);
+  transition: all 325ms cubic-bezier(.215, .61, .355, 1);
+  color: #000;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.submit-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.7);
+}
+
+.paragraph {
+  margin-bottom: 0px;
+  padding-top: 12px;
+  border-radius: 0px;
+  color: #000;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.link {
+  color: #000;
+}
+
+.sign-up {
+  margin-top: 40px;
+  margin-right: -35px;
+  margin-left: -35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px none #000;
+  border-radius: 17px;
+}
+
+.text-field {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 12px;
+  background-color: #1f1e1e;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.image {
+  opacity: 1;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.recaptcha {
+  top: 29px;
+  right: -29px;
+  bottom: -36px;
+  margin-right: 12px;
+  margin-left: -3px;
+}
+
+.div-block {
+  position: static;
+  right: 391px;
+  bottom: 130px;
+  margin-top: -35px;
+  margin-left: -1px;
+  padding-top: 0px;
+  padding-right: 258px;
+  padding-left: 169px;
+  border: 1px solid #000;
+  background-color: #000;
+}
+
+.recaptcha-2 {
+  margin: auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .sign-up-wrap {
+    background-color: rgba(254, 255, 255, 0.53);
+  }
+
+  .body {
+    background-color: #3bb78f;
+    background-image: none;
+  }
+
+  .text_field {
+    border: 3px solid #000;
+    background-color: #1f1e1e;
+    color: #fff;
+  }
+
+  .submit-button {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .text-field {
+    border: 3px solid #000;
+    background-color: #1f1e1e;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .div-block {
+    right: 170px;
+    margin-left: 1px;
+    padding-right: 239px;
+    padding-left: 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-block {
+    right: 80px;
+    padding-right: 240px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .sign-up-wrap {
+    position: static;
+    margin-right: 31px;
+    margin-left: 31px;
+    padding-bottom: 0px;
+  }
+
+  .body {
+    background-position: 50% 50%;
+    background-size: 1500px;
+  }
+
+  .text_field {
+    position: static;
+    color: #fff;
+  }
+
+  .submit-button {
+    position: static;
+    top: 34px;
+    margin-top: 21px;
+  }
+
+  .recaptcha {
+    position: absolute;
+    left: 59px;
+    top: 263px;
+    right: 0%;
+    bottom: 0%;
+    margin-right: 36px;
+    margin-bottom: 124px;
+  }
+
+  .div-block {
+    position: static;
+    top: 163px;
+    bottom: 175px;
+    width: auto;
+    padding-right: 167px;
+  }
+
+  .recaptcha-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    float: none;
+    clear: none;
+  }
+
+  .recaptcha-3 {
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+}
+
